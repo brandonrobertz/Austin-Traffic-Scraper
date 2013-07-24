@@ -23,7 +23,7 @@ Crash HS
  Collisions blocking High Speed Roadways. HSR (High Speed Roadways) are
  Interstates, US and State Highways to include frontage roads. Collisions on
  HSR that have been pulled to the shoulder and are no longer blocking are not
- a Hot Shot call. (Crash Urgent)
+ a Hot Shot call, a.k.a. Crash Urgent.
 
 
 Crash Service

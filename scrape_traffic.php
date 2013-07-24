@@ -10,7 +10,7 @@
 # configuration file
 include_once("config.inc.php");
 
-function load_file_from_url($url) {
+function load_file_from_url($url){
   $curl = curl_init();
   curl_setopt($curl, CURLOPT_URL, $url);
   curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
@@ -23,12 +23,12 @@ function load_file_from_url($url) {
   return $str;
 }
 
-function load_xml_from_url($url) {
+function load_xml_from_url($url){
   return simplexml_load_string(load_file_from_url($url));
 }
 
 $con = mysql_connect( $serv, $user, $pass);
-if (!$con) {  die('Could not connect: ' . mysql_error());  }
+if (!$con){  die('Could not connect: ' . mysql_error());  }
 
 mysql_select_db( $db, $con);
 
@@ -38,7 +38,7 @@ $doc->loadXML($t_file);
 $arrFeeds = array();
 
 # loop through traffic events and grab values
-foreach ($doc->getElementsByTagName('item') as $node) {
+foreach ($doc->getElementsByTagName('item') as $node){
   # title - "000 Main St - Crash Service", etc
   $title = $node->getElementsByTagName('title')->item(0)->nodeValue;
   # date
@@ -68,7 +68,7 @@ foreach ($doc->getElementsByTagName('item') as $node) {
     $sql="INSERT INTO trafficker (pubdate, location, description, category)
 		VALUES
 		('$pubdate','$location','$description','$category')";
-    if (!mysql_query($sql,$con)) {
+    if (!mysql_query($sql,$con)){
       die('Error: ' . mysql_error());
     }
   }
@@ -91,8 +91,8 @@ foreach ($doc->getElementsByTagName('item') as $node) {
   # Iterate through the rows, geocoding each address
   while ($row = @mysql_fetch_assoc($result)) {
     $geocode_pending = true;
-    while ($geocode_pending) {
-      # This code is really ghetto ... I know. But in order for google maps
+    while ($geocode_pending){
+      # This code is really ugly ... I know. But in order for google maps
       # to understand a lot of the traffic page's version of street names
       # and misc formatting oddities, we need to convert some. These
       # str_ireplace chains aren't perfect and probably create errors of their

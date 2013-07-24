@@ -3,10 +3,9 @@
 include_once('config.inc.php');
 
 $con = mysql_connect( $serv, $user, $pass);
-if (!$con)
-  {
+if (!$con){
   die('Could not connect: ' . mysql_error());
-  }
+}
 
 mysql_select_db( $db, $con);
 

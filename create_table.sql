@@ -1,4 +1,4 @@
-# In case you don't want to use the PHP scripts to un/install
+# In case you don't want to use the PHP scripts to un/install...
 CREATE TABLE `trafficker` (
   `id` INT(11) NOT NULL AUTO_INCREMENT,
   `pubdate` VARCHAR(50) NULL DEFAULT NULL,
