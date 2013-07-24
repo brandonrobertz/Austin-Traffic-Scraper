@@ -1,7 +1,7 @@
 Austin-Traffic-Scraper
 ======================
 
-A PHP web-scraper that parses and geocodes traffic events (collisions, mostly) from the Austin-Travis County Traffic Report Page (http://www.ci.austin.tx.us/qact/default.cfm).
+A PHP web-scraper that parses and geocodes traffic events (hazards & collisions, mostly) from the Austin-Travis County Traffic Report Page (http://www.ci.austin.tx.us/qact/default.cfm).
 
 # Installation & Usage
 
