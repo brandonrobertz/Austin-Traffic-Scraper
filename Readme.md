@@ -15,6 +15,6 @@ A PHP web-scraper that parses and geocodes traffic events (collisions, mostly) f
 
 - The reports break down traffic events into several categories. While the page does give explanations for some of them, I managed to get descriptions from the APD to fill in the holes. These are included in `crash_codes.txt`.
 
-- The traffic reports page spits out traffic event locations in strange ways. Most often, it outputs intersections, i.e., "Cesar Chavez/IH-35". Look forward to dealing with nonstandard abbreviations, slang, typos, etc. The scraper has a very basic chain of string replacements to make everything more Google Maps-friendly, but it's _far from perfect_. I'd like to improve this in the future.
+- The traffic reports page spits out traffic event locations in strange ways. Most often, it outputs intersections, i.e., "Cesar Chavez/IH-35". Look forward to dealing with nonstandard abbreviations, slang, typos, etc. The scraper has a very basic chain of string replacements to make everything more Google Maps-friendly, but it's _far from perfect_.
 
 - I have 2.5 years of Traffic Events logged that I am in the process of cleaning up, re-parsing, etc. It's a total backburner project right now, but if enough people show interest in it, I can put up the raw SQL dump. *Warning: It's ugly as hell!*
