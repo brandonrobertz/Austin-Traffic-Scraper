@@ -1,0 +1,83 @@
+Here are the definitions for the various call types for APD. There are other
+agency calls listed on the report:
+
+
+Crash Blue Form
+
+ Collisions that do not require a law enforcement response.  Crash Blue Form
+ criteria includes: there are no injures, no one is suspected of being
+ intoxicated, the vehicles are not blocking a roadway, and all vehicles can be
+ driven (do not need a tow), there is no disturbance; all drivers have current
+ license and insurance.  All parties have agreed to exchange information and
+ pick up their own blue form, for submission to their insurance companies
+ (within 10 days of the accident).
+
+
+Crash HS
+
+ HS "Hot Shot" - dispatched immediately
+
+ Collisions that are blocking traffic on high speed roadways, and/ or require
+ life-saving first-aid.  Examples: Crashes with a high probability of serious
+ injuries such as rollover, head-on, or very high rate of speed crashes.
+ Collisions blocking High Speed Roadways. HSR (High Speed Roadways) are
+ Interstates, US and State Highways to include frontage roads. Collisions on
+ HSR that have been pulled to the shoulder and are no longer blocking are not
+ a Hot Shot call. (Crash Urgent)
+
+
+Crash Service
+
+ 3 dispatched when district unit is available
+
+ 1PU
+
+ Collisions that are not blocking or impeding traffic.  Collisions having
+ occurred on private property.  Leaving the scene collisions where there
+ are no injuries, lanes, blocked, or any parties chasing the other as a
+ result of the collision.
+
+
+Crash Urgent
+
+ 2 dispatched within 5 minutes
+
+ 2PU <5MIN
+
+ Collisions involving minor injuries and or where minor injuries are
+ suspected.  Collisions that are blocking secondary roadways (non-hig
+  speed).  Collisions having occurred on a HSR (High Speed Roadway), but are
+  no longer blocking (having pulled to the shoulder / parking lot)*See Crash
+  Service*.  Collisions involving city vehicles.
+
+
+Traffic Hazard
+
+ Any traffic hazard on major thoroughfares that may cause a collision,
+ injuries, or otherwise cause undue traffic congestion. For example:
+ pedestrians, stalled vehicles, debris in the roadway, and / or inoperative
+ traffic signals.
+
+
+Traffic Hazard HSR
+
+ 2 dispatched within 5 minutes
+
+ 2PU <5MIN
+
+ Any traffic hazard on a HSR (High Speed Roadway) that may cause an injury or
+ collision. For example: pedestrians and / or debris in the roadway. HSR
+ (High Speed Roadways) equate to Interstates, US and State Highways to
+ include frontage roads.
+
+
+Traffic Impediment
+
+ 3 dispatched when district unit is available
+
+ 1PU
+
+ Impediments located on minor roadways that do not pose an immediate
+ hazardous situation; but if not addressed could cause future problems. For
+ example: railroad arms stuck in the down position, stalled vehicles, and
+ street parking issues that impede traffic.
